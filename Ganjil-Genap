@@ -1,0 +1,7 @@
+# GANJIL GENAP --- untuk menentukan apakah angka tersebut ganjil atau genap
+n = int(input("masukkan angka: ")) # 67
+
+if n % 2 == 0:
+    print ("Genap")
+else:
+    print ("Ganjil")

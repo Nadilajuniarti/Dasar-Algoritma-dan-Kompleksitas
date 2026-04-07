@@ -1,0 +1,13 @@
+# Menentukan bilangan terbesar dari 3 angka
+a = int(input("Masukkan angka 1: ")) #5
+b = int(input("Masukkan angka 2: ")) #2
+c = int(input("Masukkan angka 3: ")) #10
+
+if a >= b and a >= c:
+    terbesar = a
+elif b >= a and b >= c:
+    terbesar = b
+else:
+    terbesar = c 
+
+print ("Terbesar:",terbesar)

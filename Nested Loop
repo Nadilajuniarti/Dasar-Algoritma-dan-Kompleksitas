@@ -1,0 +1,5 @@
+#3 NESTED LOOP ---perulangan dalam perulangan. setiap kali loop berjalan 1 kali, loop dalam akan berjalan sampai selesai
+n = int (input("masukkan nilai n:"))
+for i in range (1,n):
+    for j in range (1,n):
+        print (i, end= " ") 

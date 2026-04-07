@@ -1,0 +1,9 @@
+# FOR LOOPING --- digunakan untuk perulangan yang jumlahnya sudah diketahui
+n = int (input("masukkan nilai n:")) 
+for i in range (1,n):
+    print(i, end= " ")
+
+
+n = int(input("masukkan nilai n: "))
+for i in range (n):
+    print (i, end= " ")

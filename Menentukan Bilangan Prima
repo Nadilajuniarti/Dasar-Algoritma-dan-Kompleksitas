@@ -1,5 +1,5 @@
 # MENENTUKAN BILANGAN PRIMA
-n = int(input("Masukkan angka: ")) # 5
+n = int(input("Masukkan angka: ")) 
 if n <= 1 :
     print ("Bukan bilangan prima")
 else:

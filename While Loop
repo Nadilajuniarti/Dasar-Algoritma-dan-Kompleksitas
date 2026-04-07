@@ -1,4 +1,4 @@
-#2 WHILE LOOP --- perulangan yang berjalan selama kondisi benar
+# WHILE LOOP --- perulangan yang berjalan selama kondisi benar
 i = 1
 while i <= 5:
     print(i, end= " ")
